@@ -1,0 +1,175 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+#header
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(5, 72, 88); 
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    height: 120px; 
+    text-align: center;
+    color: white; 
+    font-size: 76px;
+    letter-spacing: 6px;
+    text-shadow: 
+    2px 2px 0 rgb(3, 39, 48),
+    -2px 2px 0 rgb(3, 39, 48),
+    -2px -2px 0 rgb(3, 39, 48),
+    2px -2px 0 rgb(3, 39, 48);
+  
+    
+}
+.sticky {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+} 
+nav
+{
+    background-color: rgb(3, 39, 48); 
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    text-align: center; 
+    color: white;
+    
+} 
+.content
+{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 1000px;
+    text-align: justify;
+}
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+
+}
+ol a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ol > li
+{
+    float: left;
+    width: 150px;
+    border-right: 1px dashed rgb(2, 90, 112);
+}
+#intro
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px; 
+    font-size: 30px; 
+    text-align: center;
+} 
+ul 
+{
+    list-style-type: none;
+    width: 105%
+    
+} 
+ul p
+{
+    text-decoration: none;
+    color: black;
+    display: block; 
+    position: relative;
+    right: 55px;
+    
+}
+ul p:hover
+{
+    background-color: rgb(185, 185, 185);
+} 
+ul > li 
+{
+    float: left;
+    width: 210px;
+    text-align: center;
+}
+ul > li > ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 200;
+}
+ul > li > table
+{
+    visibility: hidden;
+    transform-origin:50% 0;
+    transform:scaleY(0);
+    transition-duration: 250ms;
+    position: absolute;
+    
+} 
+ul > li:hover > table 
+{
+    visibility: visible;
+    width: 500px;
+    transform:scaleY(1); 
+    background-color: rgb(223, 219, 219);
+    padding: 3px;
+
+}
+.text
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+img
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   height: 100%;
+}
+footer{
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(3, 39, 48); 
+   color: white;
+   width: 100%;
+   padding: 5px 0px 5px 0px;
+}
+footer > p{
+    margin-left: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 52px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: rgba(179, 171, 171, 0.747);
+    padding: 20px 0 20px 0;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+}
+.item{
+    width: 450px;
+    height: 300px;
+    margin: 5px;
+}
